@@ -91,7 +91,7 @@ body {
 }
 
 .column.right {
-    width: 20%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -406,7 +406,7 @@ img {
     }
 
     .column.left, .column.right {
-        text-align: center;
+        align-items: center;
     }
 
     .column.left p, .column.right p {
