@@ -392,10 +392,24 @@ img {
     .section {
         flex-direction: column;
         text-align: center;
+        padding: 0 20px; /* Ajustează padding-ul pentru a evita marginile prea mari */
     }
 
     .section img {
-        width: 80%;
-        margin: 20px 0;
+        width: 100%; /* Asigură-te că imaginile se redimensionează corespunzător */
+        height: auto; /* Păstrează proporțiile imaginilor */
+        margin: 20px 0; /* Adaugă un spațiu între imagine și text */
+    }
+
+    .column.left, .column.middle, .column.right {
+        width: 100%; /* Fă coloanele să ocupe 100% din lățimea ecranului */
+    }
+
+    .contact-form input, .contact-form textarea {
+        width: 100%; /* Asigură-te că input-urile ocupă întreaga lățime */
+    }
+
+    .contact-form input {
+        margin-bottom: 15px; /* Adaugă un spațiu între input-uri */
     }
 }
