@@ -49,6 +49,7 @@ body {
 .intro h1 {
     text-align: left;
     margin-bottom: 2rem;
+    font-size: 2.5rem;
     color: #34495e;
     background-color: #ffffff;
 }
@@ -400,8 +401,16 @@ img {
         margin: 20px 0; /* Adaugă un spațiu între imagine și text */
     }
 
+    .column.left, .column.middle, .column.right {
+        width: 100%; /* Fă coloanele să ocupe 100% din lățimea ecranului */
+    }
+
     .column.left, .column.right {
-        font-size: 5px;
+        text-align: center;
+    }
+
+    .column.left p, .column.right p {
+        font-size: 20px;
     }
 
     .contact-form input, .contact-form textarea {
