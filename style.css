@@ -390,15 +390,25 @@ img {
 /* Media queries pentru dispozitive mobile */
 @media (max-width: 768px) {
 
+    .nav {
+        display: flex; /* Use flexbox for the nav */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        width: 100%;
+    }
+    
     .nav ul {
-        display: flex; /* Activează flexbox */
-        flex-direction: column; /* Elemente pe coloane */
-        align-items: center; /* Centrează elementele pe orizontală */
-        justify-content: center; /* Centrează elementele pe verticală */
-        gap: 2rem; /* Distanță între elemente */
-        width: 100%; /* Asigură că meniul ocupă întreaga lățime a ecranului */
+        display: flex; /* Use flexbox for the nav */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        padding: 0; /* Remove default padding */
+        margin: 0; /* Remove default margin */
     }
 
+    .nav ul li {
+        text-align: center;
+    }
+    
 
     .section {
         flex-direction: column;
