@@ -397,6 +397,7 @@ img {
         width: 100%;
     }
     
+    
     .nav ul {
         display: flex; /* Use flexbox for the nav */
         flex-direction: column; /* Stack items vertically */
